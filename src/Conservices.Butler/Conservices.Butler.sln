@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conservices.Butler.Main", "Conservices.Butler.Main\Conservices.Butler.Main.csproj", "{F3894162-B818-40F6-A0B7-2762F95096EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{63104011-73C3-410A-B06D-1B228F8F3BE0}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conservices.Butler.Repositories", "Conservices.Butler.Repositories\Conservices.Butler.Repositories.csproj", "{97CE244C-D9E7-4A2D-B0AD-B66A07749DB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conservices.Butler.Interfaces", "Conservices.Butler.Interfaces\Conservices.Butler.Interfaces.csproj", "{AC890F8A-94D5-4C59-B3AB-CB57236F7C62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conservices.Butler.Services", "Conservices.Butler.Services\Conservices.Butler.Services.csproj", "{3A13FDC6-69C9-4C31-9A5D-B715C47F2BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conservices.Butler.Models", "Conservices.Butler.Models\Conservices.Butler.Models.csproj", "{098EA766-75F9-4343-82F2-235015361103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conservices.Butler.Controllers", "Conservices.Butler.Controllers\Conservices.Butler.Controllers.csproj", "{88A281AD-E367-4803-9C73-9A6921D07ECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3894162-B818-40F6-A0B7-2762F95096EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3894162-B818-40F6-A0B7-2762F95096EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3894162-B818-40F6-A0B7-2762F95096EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3894162-B818-40F6-A0B7-2762F95096EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CE244C-D9E7-4A2D-B0AD-B66A07749DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CE244C-D9E7-4A2D-B0AD-B66A07749DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CE244C-D9E7-4A2D-B0AD-B66A07749DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CE244C-D9E7-4A2D-B0AD-B66A07749DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC890F8A-94D5-4C59-B3AB-CB57236F7C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC890F8A-94D5-4C59-B3AB-CB57236F7C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC890F8A-94D5-4C59-B3AB-CB57236F7C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC890F8A-94D5-4C59-B3AB-CB57236F7C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A13FDC6-69C9-4C31-9A5D-B715C47F2BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A13FDC6-69C9-4C31-9A5D-B715C47F2BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A13FDC6-69C9-4C31-9A5D-B715C47F2BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A13FDC6-69C9-4C31-9A5D-B715C47F2BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{098EA766-75F9-4343-82F2-235015361103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098EA766-75F9-4343-82F2-235015361103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098EA766-75F9-4343-82F2-235015361103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098EA766-75F9-4343-82F2-235015361103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A281AD-E367-4803-9C73-9A6921D07ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A281AD-E367-4803-9C73-9A6921D07ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A281AD-E367-4803-9C73-9A6921D07ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A281AD-E367-4803-9C73-9A6921D07ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

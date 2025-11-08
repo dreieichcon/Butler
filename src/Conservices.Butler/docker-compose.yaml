@@ -1,0 +1,16 @@
+﻿services:
+  conservices-butler:
+    platform: linux/amd64
+    image: hub.demolite.de/demoreg/conservices-screen
+    container_name: conservices-butler
+    restart: always
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Conservices.Butler.Main/Dockerfile
+      args:
+        - CERT_PASS=${cert_pass}
+    ports:
+      - "8100:80"
+      - "8101:443"

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <RootNamespace>Conservices.Butler.Api</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.10"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Conservices.Butler.Controllers\Conservices.Butler.Controllers.csproj" />
+      <ProjectReference Include="..\Conservices.Butler.Interfaces\Conservices.Butler.Interfaces.csproj" />
+      <ProjectReference Include="..\Conservices.Butler.Repositories\Conservices.Butler.Repositories.csproj" />
+      <ProjectReference Include="..\Conservices.Butler.Services\Conservices.Butler.Services.csproj" />
+    </ItemGroup>
+
+</Project>
